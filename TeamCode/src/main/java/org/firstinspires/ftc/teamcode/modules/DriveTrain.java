@@ -7,6 +7,7 @@ import com.qualcomm.robotcore.hardware.DcMotorEx;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import org.firstinspires.ftc.teamcode.hardware.ConditionalHardwareDeviceGroup;
 import org.firstinspires.ftc.teamcode.modules.core.Module;
+import org.firstinspires.ftc.teamcode.roadrunner.drive.SampleMecanumDrive;
 
 public class DriveTrain extends Module {
     /**
@@ -111,7 +112,7 @@ public class DriveTrain extends Module {
 
     /**
      * Sets the directions of the drive train motors.  Used in {@link #DriveTrain(OpMode)} and
-     *  {@link org.firstinspires.ftc.teamcode.roadrunner.drive.SampleMecanumDrive#SampleMecanumDrive(OpMode)}
+     *  {@link SampleMecanumDrive#SampleMecanumDrive(OpMode)}
      * @param frontLeft The front left motor
      * @param frontRight The front right motor
      * @param backLeft The back left motor
